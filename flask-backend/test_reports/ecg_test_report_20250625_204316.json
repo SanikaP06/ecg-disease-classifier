@@ -1,0 +1,45 @@
+{
+  "file_analysis": {
+    "success": true,
+    "samples": 650000,
+    "statistics": {
+      "mean": 324999.5,
+      "std": 187638.83748640632,
+      "min": 0.0,
+      "max": 649999.0
+    },
+    "quality": {
+      "SNR_estimate": "inf",
+      "Dynamic_range": "649999.0000",
+      "Flat_segments_%": "0.00%",
+      "Saturation_%": "0.00%",
+      "Dominant_frequency": "0.0 Hz",
+      "Overall_quality": "Good"
+    }
+  },
+  "health_check": {
+    "success": true,
+    "endpoint": "/",
+    "model_loaded": true,
+    "response": {
+      "available_classes": [
+        "AFIB",
+        "LBBB",
+        "Normal",
+        "PVC",
+        "RBBB"
+      ],
+      "message": "ECG Classification API is running",
+      "model_loaded": true,
+      "status": "healthy"
+    }
+  },
+  "model_info": {
+    "success": false,
+    "error": "No endpoint available"
+  },
+  "main_prediction": {
+    "success": false,
+    "error": "All endpoints failed"
+  }
+}
