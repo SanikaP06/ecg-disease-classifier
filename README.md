@@ -36,4 +36,13 @@ Output classes include:
 - PVC (Premature Ventricular Contraction)
 
 ---
-
+## 🗂 Project Structure
+```bash
+ecg-disease-classifier/
+├── app.py # Flask app with /predict API
+├── model_training.py # Script to train CNN+LSTM model
+├── ecg_utils.py # Signal preprocessing, R-peak detection, scaling
+├── cnn_lstm_ecg_classifier_v1.keras # Trained model
+├── ecg_scaler.pkl # StandardScaler used for normalization
+├── class_mapping.pkl # Dictionary for class index → name
+├── requirements.txt # Python dependencies
