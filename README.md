@@ -47,7 +47,6 @@ ecg-disease-classifier/
 ├── class_mapping.pkl # Dictionary for class index → name
 ├── requirements.txt # Python dependencies
 
----
-## setup
+
 
 
