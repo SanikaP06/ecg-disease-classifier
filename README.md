@@ -46,3 +46,16 @@ ecg-disease-classifier/
 ├── ecg_scaler.pkl # StandardScaler used for normalization
 ├── class_mapping.pkl # Dictionary for class index → name
 ├── requirements.txt # Python dependencies
+
+1. **clone**
+
+   ```bash
+   git clone https://github.com/SanikaP06/sentiment-analysis-movie-reviews
+2. **Install the dependencies**
+
+   ```bash
+   pip install -r requirements.txt
+3. **run the app**
+   ```bash
+   python app.py
+
