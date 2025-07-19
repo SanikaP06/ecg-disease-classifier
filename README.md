@@ -46,7 +46,3 @@ ecg-disease-classifier/
 ├── ecg_scaler.pkl # StandardScaler used for normalization
 ├── class_mapping.pkl # Dictionary for class index → name
 ├── requirements.txt # Python dependencies
-
-
-
-
